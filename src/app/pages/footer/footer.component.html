@@ -1,0 +1,83 @@
+<footer id="footer mt-none pt-none">
+    <div class="container" style="background-color: cadetblue; height: 60mm;">
+        <div class="row py-3 my-2" style="background-color: cadetblue; height: 60mm;">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-4 mb-lg-0">
+                <h4 class="text-3 mb-3">About Us</h4>
+                <div id="tweet" class="twitter">
+                    <p [innerHtml]='aboutUs'></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-4 mb-md-0" style="background-color: cadetblue; height: 60mm;">
+                <div class="contact-details">
+                    <h4 class="text-3 mb-3">Contact Us</h4>
+                    <ul class="list list-icons list-icons-lg">
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Mailing Address" class="footer-icon">location_on</mat-icon>
+                            </i>
+                            <label class="footer-text"> My address</label>
+                        </li>
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Phone" class="footer-icon">phone</mat-icon>
+                            </i>
+                            <label class="footer-text">My Phone Number</label>
+                        </li>
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Email" class="footer-icon">email</mat-icon>
+                            </i>
+                            <a class="footer-link" href="mailto:arajesh.ms@gmail.com">My eMail</a>
+                        </li>
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Business Hours" class="footer-icon">access_time</mat-icon>
+                            </i>
+                            <label class="footer-text">My Office Hours</label>
+                        </li>
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Report an outage" class="footer-icon">offline_bolt</mat-icon>
+                            </i>
+                            <a class="footer-link" href="tel:9177620009">9177620009</a>
+                        </li>
+                        <li class="mb-1 px-0">
+                            <i>
+                                <mat-icon matTooltip="Website" class="footer-icon">public</mat-icon>
+                            </i>
+                            <a class="footer-link" href="{{googleUrl}}" target="_blank">google</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 d-md-none d-lg-none" style="background-color: cadetblue; height: 60mm;">
+                <h4 class="text-3 mb-3">Follow Us</h4>
+                <ul class="footer-social-icons">
+                    <li class="footer-social-icons-facebook mr-1"><a class="footer-link" href="{{facebookUrl}}"
+                            target="_blank" title="Facebook"><i class="fab fa-facebook-f center-icon"></i></a></li>
+                    <li class="footer-social-icons-twitter mr-1"><a class="footer-link" href="{{twitterUrl}}"
+                            target="_blank" title="Twitter"><i class="fab fa-twitter center-icon"></i></a></li>
+                    <li class="footer-social-icons-youtube mr-1"><a class="footer-link" href="{{youtubeUrl}}"
+                            target="_blank" title="Youtube"><i class="fab fa-youtube center-icon"></i></a></li>
+                    <li class="footer-social-icons-instagram mr-1"><a class="footer-link" href="{{instagramUrl}}"
+                            target="_blank" title="Instagram"><i class="fab fa-instagram center-icon"></i></a></li>
+                    <li class="footer-social-icons-pinterest mr-1"><a class="footer-link" href="{{printrestUrl}}"
+                            target="_blank" title="Pinterest"><i class="fab fa-pinterest center-icon"></i></a></li>
+                    <li class="footer-social-icons-yelp mr-1"><a class="footer-link" href="{{yelpUrl}}"
+                            target="_blank" title="Yelp"><i class="fab fa-yelp center-icon"></i></a></li>
+                    <li class="footer-social-icons-linkedin mr-1"><a class="footer-link"
+                            href="{{facebookUrl}}" target="_blank"
+                            title="LinkedIn"><i class="fab fa-linkedin center-icon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row pb-3" style="background-color: cadetblue; height: 60mm;">
+            <div class="col-md-8 col-lg-8">
+                <span class="copyright">&copy; Copyright Terms Of Use</span>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <span class="version-number text-right"><label class="footer-text">Version:1</label></span>
+            </div>
+        </div>
+    </div>
+</footer>
